@@ -140,10 +140,11 @@ body {
 .hero-image {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0 40px;
+    align-items: flex-end; /* 下寄り中央 */
+    padding: 0 40px 60px 40px; /* 下に余白追加 */
     z-index: 2;
     position: relative;
+    height: 100%;
 }
 
 .hero-building {
